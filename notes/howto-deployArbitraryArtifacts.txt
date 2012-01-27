@@ -1,0 +1,18 @@
+HOW TO
+Deploy an arbitrary artifact (normally a jar file) to the Skillstream GitHub repo
+---------------------------------------------------------------------------------
+
+[ben]
+Here's how I deployed jcommon and jcommon-xml:
+	first I created the two files you see under pomfiles/custom
+	then, from my working directory, ~/workspace/skillstream-mvn-repo
+
+mvn deploy:deploy-file -Durl=file:releases \
+                       -DrepositoryId=skillstream-github \
+                       -Dfile=/Users/ben/workspace/ssplus/public_html/WEB-INF/lib/jcommon-1.1.0.jar \
+                       -DpomFile=pomfiles/custom/jcommon-pom.xml
+
+mvn deploy:deploy-file -Durl=file:releases \
+                       -DrepositoryId=skillstream-github \
+                       -Dfile=/Users/ben/workspace/ssplus/public_html/WEB-INF/lib/jcommon-xml-1.1.0.jar \
+                       -DpomFile=pomfiles/custom/jcommon-xml-pom.xml
