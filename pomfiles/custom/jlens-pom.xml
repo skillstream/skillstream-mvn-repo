@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.bgt</groupId>
+	<artifactId>lens</artifactId>
+	<version>1.0</version>
+	<packaging>jar</packaging>
+	<name>lens</name>
+	<description>A Java adapter to Burning Glass' Lens matching service</description>
+	<url>http://www.burning-glass.com/products/lensmatch.html</url>
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+</project>
