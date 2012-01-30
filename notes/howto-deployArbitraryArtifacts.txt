@@ -33,3 +33,11 @@ mvn deploy:deploy-file -Durl=file:releases -DrepositoryId=skillstream-github \
                        -Dversion=1.3.3 \
                        -Dpackaging=jar \
                        -Dfile=/Users/ben/Downloads/javamail-1.3.3_01/mail.jar
+
+mvn deploy:deploy-file -Durl=file:releases -DrepositoryId=skillstream-github \
+                       -DgroupId=javax.media -DartifactId=jai_core -Dversion=1.1.2_01 -Dpackaging=jar \
+                       -Dfile=/Users/ben/Downloads/jai-1_1_2_01/lib/jai_core.jar
+
+mvn deploy:deploy-file -Durl=file:releases -DrepositoryId=skillstream-github \
+                       -DgroupId=com.sun.media -DartifactId=jai_codec -Dversion=1.1.2_01 -Dpackaging=jar \
+                       -Dfile=/Users/ben/Downloads/jai-1_1_2_01/lib/jai_codec.jar
