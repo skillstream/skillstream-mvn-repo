@@ -3,9 +3,11 @@
   <groupId>commons-vfs</groupId>
   <artifactId>commons-vfs</artifactId>
   <versioning>
+    <release>1.1-20070714</release>
     <versions>
       <version>1.1-SNAPSHOT</version>
+      <version>1.1-20070714</version>
     </versions>
-    <lastUpdated>20120130152845</lastUpdated>
+    <lastUpdated>20120606160522</lastUpdated>
   </versioning>
 </metadata>
