@@ -41,3 +41,11 @@ mvn deploy:deploy-file -Durl=file:releases -DrepositoryId=skillstream-github \
 mvn deploy:deploy-file -Durl=file:releases -DrepositoryId=skillstream-github \
                        -DgroupId=com.sun.media -DartifactId=jai_codec -Dversion=1.1.2_01 -Dpackaging=jar \
                        -Dfile=/Users/ben/Downloads/jai-1_1_2_01/lib/jai_codec.jar
+[renato]
+Esendex.jar dependency for old versions of ssplus
+mvn deploy:deploy-file -Durl=file:releases -DrepositoryId=skillstream-github \
+                       -DgroupId=com.esendex\
+                       -DartifactId=Esendex \
+                       -Dversion=1.0.0 \
+                       -Dpackaging=jar \
+                       -Dfile=/Users/renatosilva/Documents/workspace/ssplus/public_html/WEB-INF/lib/Esendex.jar
